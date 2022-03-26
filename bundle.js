@@ -762,6 +762,7 @@ class App {
             this.activateClickedButton(location.pathname);
             this.renderMainContent(location.pathname);
         };
+        console.log('process.env.NODE_ENV', "development");
         this.productDomain = new _domain_ProductManagement__WEBPACK_IMPORTED_MODULE_0__["default"]();
         this.coinDomain = new _domain_CoinManagement__WEBPACK_IMPORTED_MODULE_1__["default"]();
         this.productManagementUI = new _ProductManagementUI__WEBPACK_IMPORTED_MODULE_4__["default"](this.productDomain);
